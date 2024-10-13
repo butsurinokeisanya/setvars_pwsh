@@ -24,10 +24,15 @@ cmd.exe "/K" '"C:\Program Files (x86)\Intel\oneAPI\setvars.bat" && powershell'
 カレントディレクトリとしてpowershellを起動することができる.
 powershellは単語が長いのでタイプするのが七面倒である.
 省略形のpwshを使うには最新のPowerShell (PowerShell Core) をインストールする必要がある.
-WindowsPowerShellでは次のように起動時に警告されることがある. 
+MS公式サイト<a href="https://aka.ms/PSWindows">https://aka.ms/PSWindows</a>
+からPowerShell-7.4.5-win-x64.msiをダウンロードしてインストールする.
+今後, エクスプローラのアドレスバーにpwshを入力するととエクスプローラで開いていたフォルダを
+カレントディレクトリとしてpowershellが起動することができる.
+<br>
+
+余談であるが, WindowsPowerShellでは次のように起動時に毎回警告される.
 "新機能と改善のために最新の PowerShell をインストールしてください!https://aka.ms/PSWindows"
 筆者は毎回この警告が煩わしいと思いながら二の足を踏み無視していた. 今回, 
 このMS公式サイトからPowerShell-7.4.5-win-x64.msiをダウンロードしてインストールした.
-そうするとpwshコマンドがエクスプローラから使えるようになった.
-今後, エクスプローラのアドレスバーにpwshを入力するととエクスプローラで開いていたフォルダを
-カレントディレクトリとしてpowershellが起動することができる.
+そうするとpwshコマンドがエクスプローラから使えるようになった. 今後はWindowsPowerShellは使わずに
+モダンなPowerShell Coreを使うことにする.
