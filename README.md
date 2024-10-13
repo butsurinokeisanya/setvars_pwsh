@@ -31,7 +31,9 @@ MS公式サイト<a href="https://aka.ms/PSWindows">https://aka.ms/PSWindows</a>
 <br>
 
 余談であるが, WindowsPowerShellでは次のように起動時に毎回警告される.
-"新機能と改善のために最新の PowerShell をインストールしてください!https://aka.ms/PSWindows"
+```bash
+新機能と改善のために最新の PowerShell をインストールしてください!https://aka.ms/PSWindows
+```
 筆者は毎回この警告が煩わしいと思いながら二の足を踏み無視していた. 今回, 
 このMS公式サイトからPowerShell-7.4.5-win-x64.msiをダウンロードしてインストールした.
 そうするとpwshコマンドがエクスプローラから使えるようになった. 今後はWindowsPowerShellは使わずに
